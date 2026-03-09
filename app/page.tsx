@@ -238,36 +238,36 @@ export default function HomePage() {
                 </p>
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-6">
-              <div className="p-8 bg-muted/50 border border-border">
-                <div className="font-serif text-4xl lg:text-5xl text-foreground mb-2">
+            <div className="grid grid-cols-2 gap-4">
+              <div className="py-10 px-6 bg-gray-50 text-center hover:bg-gray-100 transition-colors">
+                <div className="font-serif text-3xl lg:text-4xl text-foreground mb-3">
                   80%
                 </div>
-                <div className="text-sm text-muted-foreground">
+                <div className="text-base text-gray-600">
                   業務時間削減（平均）
                 </div>
               </div>
-              <div className="p-8 bg-muted/50 border border-border">
-                <div className="font-serif text-4xl lg:text-5xl text-foreground mb-2">
+              <div className="py-10 px-6 bg-gray-50 text-center hover:bg-gray-100 transition-colors">
+                <div className="font-serif text-3xl lg:text-4xl text-foreground mb-3">
                   1週間
                 </div>
-                <div className="text-sm text-muted-foreground">
+                <div className="text-base text-gray-600">
                   最短導入期間
                 </div>
               </div>
-              <div className="p-8 bg-muted/50 border border-border">
-                <div className="font-serif text-4xl lg:text-5xl text-foreground mb-2">
+              <div className="py-10 px-6 bg-gray-50 text-center hover:bg-gray-100 transition-colors">
+                <div className="font-serif text-3xl lg:text-4xl text-foreground mb-3">
                   10万〜
                 </div>
-                <div className="text-sm text-muted-foreground">
+                <div className="text-base text-gray-600">
                   初期費用（税別）
                 </div>
               </div>
-              <div className="p-8 bg-muted/50 border border-border">
-                <div className="font-serif text-4xl lg:text-5xl text-foreground mb-2">
+              <div className="py-10 px-6 bg-gray-50 text-center hover:bg-gray-100 transition-colors">
+                <div className="font-serif text-3xl lg:text-4xl text-foreground mb-3">
                   100%
                 </div>
-                <div className="text-sm text-muted-foreground">
+                <div className="text-base text-gray-600">
                   オーダーメイド開発
                 </div>
               </div>
