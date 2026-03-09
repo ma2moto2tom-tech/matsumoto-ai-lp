@@ -43,7 +43,7 @@ export default function LandingPage() {
             <nav className={styles.nav}>
                 <div className={styles.navContainer}>
                     <div className={styles.logo}>
-                        <span className={styles.logoText}>松本AIコンサル</span>
+                        <span className={styles.logoText}>deLIGHT MEDIA WORKS</span>
                     </div>
                     <a href="#contact" className={styles.navCta}>無料相談</a>
                 </div>
@@ -53,7 +53,7 @@ export default function LandingPage() {
             <section className={styles.hero}>
                 <div className={styles.heroBackground}>
                     <img
-                        src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=1920&q=80"
+                        src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=1920&q=80"
                         alt="Office"
                         className={styles.heroImage}
                     />
@@ -81,7 +81,7 @@ export default function LandingPage() {
                         <div className={styles.problemCard}>
                             <div className={styles.problemImageWrapper}>
                                 <img
-                                    src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=400&q=80"
+                                    src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&q=80"
                                     alt="データ分析"
                                     className={styles.problemImage}
                                 />
@@ -92,7 +92,7 @@ export default function LandingPage() {
                         <div className={styles.problemCard}>
                             <div className={styles.problemImageWrapper}>
                                 <img
-                                    src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=400&q=80"
+                                    src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=400&q=80"
                                     alt="繰り返し作業"
                                     className={styles.problemImage}
                                 />
@@ -103,8 +103,8 @@ export default function LandingPage() {
                         <div className={styles.problemCard}>
                             <div className={styles.problemImageWrapper}>
                                 <img
-                                    src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=400&q=80"
-                                    alt="AIの疑問"
+                                    src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&q=80"
+                                    alt="AI活用"
                                     className={styles.problemImage}
                                 />
                             </div>
@@ -148,8 +148,8 @@ export default function LandingPage() {
                     <div className={styles.caseCard}>
                         <div className={styles.caseImage}>
                             <img
-                                src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80"
-                                alt="YouTube Analytics Dashboard"
+                                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
+                                alt="Dashboard Analytics"
                                 className={styles.caseImg}
                             />
                             <div className={styles.caseBadge}>稼働中</div>
@@ -244,16 +244,12 @@ export default function LandingPage() {
             <section className={styles.profile}>
                 <div className={styles.container}>
                     <div className={styles.profileContent}>
-                        <div className={styles.profileImage}>
-                            <img
-                                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&q=80"
-                                alt="プロフィール"
-                                className={styles.profileImg}
-                            />
+                        <div className={styles.profileLogo}>
+                            <span className={styles.profileLogoText}>dLMW</span>
                         </div>
                         <div className={styles.profileText}>
-                            <h3>松本 務</h3>
-                            <p className={styles.profileRole}>AI コンサルタント</p>
+                            <h3>株式会社deLIGHT MEDIA WORKS</h3>
+                            <p className={styles.profileRole}>AI ソリューション事業</p>
                             <p className={styles.profileBio}>
                                 「AIは難しい」を「AIで楽になった」に変えることをミッションに、
                                 中小企業の業務効率化を支援しています。
@@ -344,8 +340,8 @@ export default function LandingPage() {
             <footer className={styles.footer}>
                 <div className={styles.container}>
                     <div className={styles.footerContent}>
-                        <div className={styles.footerLogo}>松本AIコンサル</div>
-                        <p className={styles.footerCopy}>© 2024 松本AIコンサル. All rights reserved.</p>
+                        <div className={styles.footerLogo}>株式会社deLIGHT MEDIA WORKS</div>
+                        <p className={styles.footerCopy}>© 2026 deLIGHT MEDIA WORKS. All rights reserved.</p>
                     </div>
                 </div>
             </footer>
